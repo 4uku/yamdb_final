@@ -49,7 +49,7 @@ jobs:
         with:
           file: api_yamdb/Dockerfile
           push: true
-          tags: 4uku/yamdb:latest
+          tags: 4uku/yamdb_final:latest
 
 
   deploy:
