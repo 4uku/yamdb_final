@@ -6,10 +6,9 @@ services:
         volumes:
             - /var/lib/postgressql/data/
         env_file:
-            - ./.env
+            - .env
 
     web:
-        build: api_yamdb/Dockerfile
         image: 4uku/yamdb:latest
         restart: always
         volumes:
