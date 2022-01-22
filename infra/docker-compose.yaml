@@ -9,6 +9,7 @@ services:
             - .env
 
     web:
+        build: ../api_yamdb/
         image: 4uku/yamdb:latest
         restart: always
         volumes:
