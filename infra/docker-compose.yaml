@@ -11,7 +11,7 @@ services:
     web:
         image: 4uku/yamdb:v1.0
         build:
-            context: ./
+            context: .
             dockerfile: Dockerfile
         restart: always
         volumes:
