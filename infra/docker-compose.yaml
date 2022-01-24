@@ -6,10 +6,9 @@ services:
         volumes:
             - /var/lib/postgressql/data/
         env_file:
-            - .env
+            - ./.env
 
     web:
-        build: .
         image: 4uku/yamdb:latest
         restart: always
         volumes:
@@ -18,7 +17,7 @@ services:
         depends_on:
             - db
         env_file:
-            - .env
+            - ./.env
 
     nginx:
         image: nginx:1.21.3-alpine
