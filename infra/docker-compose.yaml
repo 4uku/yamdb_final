@@ -12,7 +12,7 @@ services:
         image: 4uku/yamdb:v1.0
         build:
             context: ./
-            dockerfile: ./Dockerfile
+            dockerfile: Dockerfile
         restart: always
         volumes:
             - static_value:/app/static/
