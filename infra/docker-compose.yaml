@@ -9,7 +9,7 @@ services:
       - .env
 
   web:
-    image: ${{ secrets.DOCKER_USERNAME }}/yamdb_final:latest
+    image: 4uku/yamdb_final:latest
     restart: always
     volumes:
       - static_value:/app/static/
