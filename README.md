@@ -1,4 +1,4 @@
-![статус тестов](https://github.com/4uku/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![статус тестов](https://github.com/4uku/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg) - сервер отключен, потому последний деплой не удался
 
 # YaMDb API
 
